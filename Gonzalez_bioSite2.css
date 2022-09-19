@@ -54,9 +54,9 @@ h2 {
 
 header {
     background-color: #666;
-    background-image: url('https://cdn.discordapp.com/attachments/847552585450651651/1016201931812782080/IMG_6073.jpg');
+    background-image: url('https://cdn.discordapp.com/attachments/847552585450651651/1021277325125488660/IMG_607222223.png');
     padding: 30px;
-    height: 500px;
+    height: 760px;
     text-align: end;
     font-size: 35px;
     color: #f1f1f1;
@@ -88,14 +88,6 @@ article {
     height: 300px;
 }
 
-article {
-    float: left;
-    padding: 20px;
-    width: 100%;
-    background-color: #f1f1f1;
-    height: 300px;
-}
-
 
 /* more things */
 
@@ -106,72 +98,9 @@ section::after {
 }
 
 
-/* img stuff for hobbies */
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 25px;
-}
-
-
-/* img for hobbies */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-/* img for about */
-
-.aboutimg {
-    float: left;
-    width: 50%;
-}
-
-
-/* img for home */
-
-.aboutimg {
-    float: center;
-    width: 60%;
-}
-
-
-/* box style */
-
-.boxy {
-    border: none;
-    padding: 5px;
-    width: 900px;
-    height: 210px;
-    overflow: scroll;
-}
-
-
-/* scrollbar style */
-
- ::-webkit-scrollbar {
-    height: 10px;
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #ffbc0a;
-    border-radius: 10px;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #88ba1c;
-}
-
-
 /* For footer */
 
 footer {
-    background-color: #f1f1f1;
     padding: 4px;
     text-align: center;
     font-size: 8px;
