@@ -69,6 +69,7 @@ header {
     float: left;
     display: block;
     color: #dde5b6;
+    background-color: rgba(154, 162, 71, 0.7);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
